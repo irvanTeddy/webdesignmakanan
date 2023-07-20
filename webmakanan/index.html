@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Makanan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Covered+By+Your+Grace&family=Crafty+Girls&family=Delicious+Handrawn&family=Delius&family=Permanent+Marker&family=Poppins:wght@300;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Bumi Rasa<span>.<span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#gallery" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Always Choose good</h2>
+        <p>
+            Restoran Kami adalah destinasi kuliner yang menawarkan pengalaman makan yang luar biasa bagi para pecinta makanan. 
+        </p>
+        <a href="#" class="btn"> Our menu</a>
+      </div>
+    </section>
+      <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Selamat datang di Restoran Bumi Rasa, sebuah destinasi kuliner yang menghadirkan kelezatan makanan dengan sentuhan kreativitas dan kehangatan. Sejak dibuka, kami telah berkomitmen untuk memberikan pengalaman kuliner yang luar biasa kepada para tamu kami.
+
+                    Di Restoran Bumi Rasa, kami percaya bahwa makanan adalah seni dan setiap hidangan memiliki cerita yang unik untuk diceritakan. Dapur kami dipenuhi dengan koki berbakat yang memiliki keahlian dalam menciptakan hidangan yang memukau dan mencuri perhatian lidah Anda. Kami hanya menggunakan bahan-bahan segar berkualitas tinggi untuk memastikan rasa yang otentik dan lezat dalam setiap suapan.<br><br>Selamat menikmati hidangan kami!</p>
+            </div>
+          <div class="col50">
+                     <div class="imgBx">
+                <img src="about.jpg">
+            </div>
+         </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>Menu yang di sediakan di resotoran kami</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu1.jpg" alt="">
+                </div>
+            <div class="text">
+                <h3>Special Salads</h3>
+        </div>
+        </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu2.jpg" alt="">
+                </div>
+            <div class="text">
+                <h3>Special Salads</h3>
+        </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="coffee.jpg" alt="">
+            </div>
+        <div class="text">
+            <h3>Special Salads</h3>
+    </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="menu4.jpg" alt="">
+        </div>
+    <div class="text">
+        <h3>Special Salads</h3>
+</div>
+</div>
+<div class="box">
+    <div class="imgBx">
+        <img src="menu5.jpg" alt="">
+    </div>
+<div class="text">
+    <h3>Special Salads</h3>
+</div>
+</div>
+<div class="box">
+    <div class="imgBx">
+        <img src="menu6.jpg" alt="">
+    </div>
+<div class="text">
+    <h3>Special Salads</h3>
+</div>
+</div>
+        </div>
+        <div class="title">
+           <a href="#" class="btn"> View All</a>
+        </div>
+ </section>
+
+<section class="expert" id="expert">
+    <div class="title">
+         <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="expert1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Soemone famous </h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="expert2.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Soemone famous </h3>
+    </div>
+</div>
+<div class="box">
+    <div class="imgBx">
+        <img src="expert3.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Soemone famous </h3>
+</div>
+</div>
+<div class="box">
+    <div class="imgBx">
+        <img src="expert4.jpg" alt="">
+    </div>
+    <div class="text">
+        <h3>Soemone famous </h3>
+</div>
+</div>
+    </section>
+
+
+    <section class="gallery" id="gallery">
+        <div class="title">
+             <h2 class="titleText">Our <span>G</span>allery</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="g1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Soemone famous </h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="gallery.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Soemone famous </h3>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="g2.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Soemone famous </h3>
+    </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="gallery.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>Soemone famous </h3>
+    </div>
+    </div>
+    
+        </section>
+
+    <section class="testimonials" id="testimonials">
+    <div class="title white">
+         <h2 class="titleText">They <span>S</span>aid About Us</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img src="testi1.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae earum ut unde dolor facere impedit deserunt architecto aliquam minus minima corporis  </p>
+                <h3>Soemone famous</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="testi2.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae earum ut unde dolor facere impedit deserunt architecto aliquam minus minima corporis  </p>
+                <h3>Soemone famous</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="testi3.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae earum ut unde dolor facere impedit deserunt architecto aliquam minus minima corporis  </p>
+                <h3>Soemone famous</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+    <section class="contact" id="contact">
+        <div class="title ">
+             <h2 class="titleText"> <span>C</span>ontact Us</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Name"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+        </div>
+        </section>
+
+        <div class="copyrightText">
+            <p>Copyright 2023 <a href="#">Teddy</a>. All Right Reserved</p>
+        </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+        var elements = document.querySelectorAll(".about, .menu, .expert, .gallery, .testimonials, .contact");
+
+function animasiMasuk() {
+  var screenHeight = window.innerHeight;
+
+  elements.forEach(function(element) {
+    var elementPosition = element.getBoundingClientRect().top;
+
+    if (elementPosition < screenHeight / 2) {
+      element.classList.add("animasi-masuk");
+    } else {
+      element.classList.remove("animasi-masuk");
+    }
+  });
+}
+
+window.addEventListener("scroll", animasiMasuk);
+
+
+
+
+
+    </script>
+  </body>
+</html>
